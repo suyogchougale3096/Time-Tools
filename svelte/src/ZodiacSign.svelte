@@ -1,6 +1,8 @@
 <script>
     import { Router, Route, Link } from "svelte-navigator";
     export let ZodiacSign;
+
+    let dob = '';
 </script>
 
 <!-- Start of carousel -->
@@ -287,7 +289,7 @@
     <div class="text-center">
         <p class="text-light fs-1 text-center">Zodiac Sign Calculator</p>
         <label for="datePicker" class="form-label text-light">Enter the birth date : </label>
-        <input type="date" required />
+        <input type="date" bind:value={dob} required>
         <br />
         <button class="btn btn-primary mt-3">Submit</button>
     </div>
@@ -298,7 +300,7 @@
 <div class="container ResultDatePicker">
     <div class="text-center">
         <p class="text-light fs-1 text-center">Zodiac Sign Result</p>
-        <label for="datePicker" class="form-label text-light">Comming Soon</label>
+        <label for="datePicker" class="form-label text-light" id = "result">{dob}</label>
     </div>
 </div>
 
