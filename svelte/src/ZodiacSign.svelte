@@ -3,6 +3,17 @@
     export let ZodiacSign;
 
     let dob = '';
+    let year,month,day;
+    let arr;
+    
+    const displaybtn = () => {
+        arr = dob.split("-");
+        year = arr[0];
+        month = arr[1];
+        day = arr[2];
+    };
+
+    console.log(typeof(dob));
 </script>
 
 <!-- Start of carousel -->
@@ -291,7 +302,7 @@
         <label for="datePicker" class="form-label text-light">Enter the birth date : </label>
         <input type="date" bind:value={dob} required>
         <br />
-        <button class="btn btn-primary mt-3">Submit</button>
+        <button class="btn btn-primary mt-3" on:click={displaybtn}>Submit</button>
     </div>
 </div>
 <!-- End the section of Enter the birth date. -->
