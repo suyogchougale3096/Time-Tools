@@ -2,10 +2,10 @@
     import { Router, Route, Link } from "svelte-navigator";
     export let ZodiacSign;
 
-    let dob = 'NULL';
+    let dob = 'Not Selected';
     let year,month,day;
     let arr;
-    let horiscope = 'NULL';
+    let horiscope = 'Date is not selected yet.';
     let temp;
     
     const displaybtn = () => {

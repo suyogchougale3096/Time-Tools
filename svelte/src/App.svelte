@@ -2,6 +2,7 @@
   import { Router, Route, Link } from "svelte-navigator";
   import AboutUs from "./AboutUs.svelte";
   import ContactUs from "./ContactUs.svelte";
+  import LeapYear from "./LeapYear.svelte";
   import Cards from "./lib/Cards.svelte";
   import Footer from "./lib/Footer.svelte";
   import HeaderContent from "./lib/HeaderContent.svelte";
@@ -46,6 +47,7 @@
                             <ul class="dropdown-menu">
                               <!-- <Link to = "zodiacsign" class = "nav-link">Zodiac Sign Calculator</Link> -->
                               <a href="zodiacsign" class="nav-link">Zodiac Sign Calculator</a>
+                              <a href="leapyear" class="nav-link">Leap Year Cheack</a>
                             </ul>
                           </li>
                           <!-- <Link to = "aboutus" class = "nav-link">About Us</Link> -->
@@ -78,6 +80,8 @@
     <Route path = "aboutus/*AboutUsRoute" component = {AboutUs} />
 
     <Route path = "contactus/*ContactUsRoute" component = {ContactUs} />
+
+    <Route path = "leapyear/*LeapYear" component = {LeapYear} />
 
     <Footer />
   </div>
