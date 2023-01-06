@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6 text-center">
-                <h4>About Us</h4>
+                <h4 class = "text-dark">About Us</h4>
                 <p>
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut molestias reiciendis
                     minima itaque numquam eligendi vel ipsa atque. Nobis, exercitationem asperiores
@@ -10,7 +10,7 @@
                 </p>
             </div>
             <div class="col-md-6 text-center Links">
-                <h4>Follow Us On</h4>
+                <h4 class = "text-dark">Follow Us On</h4>
                 <i class="fa-brands fa-instagram mb-2"><a href="#" class="ms-1">Instagram</a></i><br />
                 <i class="fa-brands fa-facebook mb-2"><a href="#" class="ms-1">Facebook</a></i><br />
                 <i class="fa-brands fa-linkedin mb-2"><a href="#" class="ms-1">Linkdin</a></i><br />
