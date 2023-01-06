@@ -7,6 +7,7 @@
     let arr;
     let temp = -1;
 
+
     const displayBtn1 = () =>{
         year = dob;
         console.log(typeof(year))
@@ -16,7 +17,6 @@
         else{
             temp = 0;
         }
-
     }
 </script>
 
@@ -40,15 +40,17 @@
 <div class="container YearCheck text-center">
     <p class = 'fs-2 text-light'>Detect Leap Year or Not</p>
     <label for="datePicker" class="form-label text-light">Enter the date : </label>
-    <input type="number" min = "1900" max = "2099"bind:value={dob} required>
+    <input type="number" min = "1900" max = "2099"bind:value={dob} placeholder = 'Year'required>
     <!-- <p class = 'fs-5 text-light'>{dob}</p> -->
     <br>
-    <button class="btn btn-primary mt-3" on:click={displayBtn1}>Submit</button>
-    {#if temp != -1}
-        {#if temp == 0}
-            <p class="text-light text-center fs-5 mt-4">It is not leap year</p>
-        {:else}
-            <p class="text-light text-center fs-5 mt-4">It is leap year</p>
+    <button class="btn btn-primary mt-3" on:click={displayBtn1}>Cheack</button>
+    {#if year != 'NULL'}
+        {#if temp != -1}
+            {#if temp == 0}
+                <p class="text-light text-center fs-5 mt-4">It is not leap year</p>
+            {:else}
+                <p class="text-light text-center fs-5 mt-4">It is leap year</p>
+            {/if}
         {/if}
     {/if}
 </div>
