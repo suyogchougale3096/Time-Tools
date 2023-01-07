@@ -107,8 +107,4 @@
 		background: radial-gradient(circle, rgba(62, 44, 62, 1) 0%, rgba(138, 82, 42, 1) 0%);
     border-radius: 10px;
   }
-
-  #navbarNavAltMarkup .navbar-nav .test{
-    color: red;
-  }
 </style>
