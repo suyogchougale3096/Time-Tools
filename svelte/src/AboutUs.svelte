@@ -4,7 +4,7 @@
 </script>
 
 <div class="AboutUs text-center text-light">
-    <p class="fs-4">About Us</p>
+    <p class="fs-2">About Us</p>
     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis quam laborum a explicabo. Optio, commodi dolorum. Suscipit quia dolores, quasi nam velit distinctio ducimus explicabo laboriosam, animi, sapiente impedit vero.
     Alias corrupti tenetur dignissimos, commodi doloribus accusantium! Hic alias ducimus consectetur fugiat dolore illo omnis impedit magnam recusandae perferendis doloremque sapiente nesciunt qui ut aut similique amet, quasi maiores dignissimos?
     Doloribus asperiores, omnis ipsa minima labore provident ullam ea! Quia explicabo voluptatum facilis corrupti, mollitia ex esse impedit excepturi, dolor ducimus, aperiam facere dicta et natus architecto provident ad totam.

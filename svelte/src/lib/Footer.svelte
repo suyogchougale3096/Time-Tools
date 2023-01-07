@@ -11,10 +11,16 @@
             </div>
             <div class="col-md-6 text-center Links">
                 <h4 class = "text-dark">Follow Us On</h4>
-                <i class="fa-brands fa-instagram mb-2"><a href="#" class="ms-1">Instagram</a></i><br />
+                <div class="Links">
+                    <i class="fa-brands fa-instagram mb-2"></i><a href="#" class="ms-1 link-dark">Instagram</a><br />
+                    <i class="fa-brands fa-facebook mb-2"></i><a href="#" class="ms-1 link-dark">Facebook</a><br />
+                    <i class="fa-brands fa-linkedin mb-2"></i><a href="#" class="ms-1 link-dark">Linkdin</a><br />
+                    <i class="fa-brands fa-github mb-2"></i><a href="#" class="ms-1 link-dark">GitHub</a>
+                </div>
+                <!-- <i class="fa-brands fa-instagram mb-2"><a href="#" class="ms-1">Instagram</a></i><br />
                 <i class="fa-brands fa-facebook mb-2"><a href="#" class="ms-1">Facebook</a></i><br />
                 <i class="fa-brands fa-linkedin mb-2"><a href="#" class="ms-1">Linkdin</a></i><br />
-                <i class="fa-brands fa-github mb-2"><a href="#" class="ms-1">GitHub</a></i>
+                <i class="fa-brands fa-github mb-2"><a href="#" class="ms-1">GitHub</a></i> -->
             </div>
         </div>
     </div>
@@ -27,9 +33,26 @@
 		padding-top: 50px;
 		padding-bottom: 50px;
 	}
-	.Links a {
-		color: white;
-		text-decoration: none;
-        text-transform: lowercase;
-	}
+	.Links{
+        font-size: 21px;;
+    }
+    .link-dark{
+        text-decoration: none;
+    }
+    .link-dark:hover{
+        font-size: 25px;
+    }
+    /* .fa-instagram{
+        color:rgb(236, 9, 175);
+    }
+    .fa-facebook{
+        color: blue;
+    }
+    .fa-linkedin{
+        color:blue
+    }
+    .fa-instagram:hover{
+        color:rgb(236, 9, 175);
+        background-color: black;
+    } */
 </style>
