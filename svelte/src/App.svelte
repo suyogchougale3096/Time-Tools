@@ -47,7 +47,7 @@
                             <ul class="dropdown-menu">
                               <!-- <Link to = "zodiacsign" class = "nav-link">Zodiac Sign Calculator</Link> -->
                               <a href="zodiacsign" class="nav-link">Zodiac Sign Calculator</a>
-                              <a href="leapyear" class="nav-link">Leap Year Cheack</a>
+                              <a href="leapyear" class="nav-link">Leap Year Check</a>
                             </ul>
                           </li>
                           <!-- <Link to = "aboutus" class = "nav-link">About Us</Link> -->

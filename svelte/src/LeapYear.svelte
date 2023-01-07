@@ -24,7 +24,7 @@
     <div class="row">
         <div class="col">
             <div class="info text-light text-center">
-            <p class = "fs-2">About Leap Year Cheacking.</p>
+            <p class = "fs-2">About Leap Year Checking.</p>
                 This is a quick online utility for testing if the given year is a leap year. Just as a reminder, 
             a leap year has 366 days, which is one more day than a common year. This extra day is added to the month of 
             February and it falls on February 29th. There's a simple mathematical formula for calculating if the given year is a 
@@ -43,7 +43,7 @@
     <input type="number" min = "1900" max = "2099"bind:value={dob} placeholder = 'Year'required>
     <!-- <p class = 'fs-5 text-light'>{dob}</p> -->
     <br>
-    <button class="btn btn-primary mt-3" on:click={displayBtn1}>Cheack</button>
+    <button class="btn btn-primary mt-3" on:click={displayBtn1}>Check</button>
     {#if year != 'NULL'}
         {#if temp != -1}
             {#if temp == 0}

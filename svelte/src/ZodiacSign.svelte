@@ -431,7 +431,7 @@
         <br>
         <label for="datePicker" class="form-label text-light" id = "result">Check Your input date here & then press Submit: {dob}</label>
         <br />
-        <button class="btn btn-primary mt-3" on:click={displaybtn}>Submit</button>
+        <button class="btn btn-primary mt-3" on:click={displaybtn}>Check</button>
     </div>
 </div>
 <!-- End the section of Enter the birth date. -->
