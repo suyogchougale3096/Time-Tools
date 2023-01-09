@@ -47,9 +47,9 @@
     {#if year != 'NULL'}
         {#if temp != -1}
             {#if temp == 0}
-                <p class="text-light text-center fs-5 mt-4">It is not leap year</p>
+                <p class="text-warning text-center fs-5 mt-4"><b>Result is : </b>It is not leap year</p>
             {:else}
-                <p class="text-light text-center fs-5 mt-4">It is leap year</p>
+                <p class="text-warning text-center fs-5 mt-4"><b>Result is : </b>It is leap year</p>
             {/if}
         {/if}
     {/if}

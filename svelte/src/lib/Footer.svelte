@@ -9,13 +9,13 @@
                     perspiciatis quam necessitatibus laudantium sequi culpa vero? Minima, voluptate.
                 </p>
             </div>
-            <div class="col-md-6 text-center Links">
-                <h4 class = "text-dark">Follow Us On</h4>
-                <div class="Links">
-                    <i class="fa-brands fa-instagram mb-2"></i><a href="#" class="ms-1 link-dark">Instagram</a><br />
-                    <i class="fa-brands fa-facebook mb-2"></i><a href="#" class="ms-1 link-dark">Facebook</a><br />
-                    <i class="fa-brands fa-linkedin mb-2"></i><a href="#" class="ms-1 link-dark">Linkdin</a><br />
-                    <i class="fa-brands fa-github mb-2"></i><a href="#" class="ms-1 link-dark">GitHub</a>
+            <div class="col-md-6">
+                <h4 class = "text-dark text-center">Follow Us On</h4>
+                <div class="Links text-center">
+                    <i class="fa-brands fa-instagram mb-2"></i><a href="#" class="ms-1 link-dark text-light">Instagram</a><br />
+                    <i class="fa-brands fa-facebook mb-2"></i><a href="#" class="ms-1 link-dark text-light">Facebook</a><br />
+                    <i class="fa-brands fa-linkedin mb-2"></i><a href="#" class="ms-1 link-dark text-light">Linkdin</a><br />
+                    <i class="fa-brands fa-github mb-2"></i><a href="#" class="ms-1 link-dark text-light">GitHub</a>
                 </div>
                 <!-- <i class="fa-brands fa-instagram mb-2"><a href="#" class="ms-1">Instagram</a></i><br />
                 <i class="fa-brands fa-facebook mb-2"><a href="#" class="ms-1">Facebook</a></i><br />

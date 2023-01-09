@@ -1,5 +1,5 @@
 <script>
-  import { Router, Route, Link } from "svelte-navigator";
+  import { Router, Route, Link, link } from "svelte-navigator";
   import AboutUs from "./AboutUs.svelte";
   import ContactUs from "./ContactUs.svelte";
   import LeapYear from "./LeapYear.svelte";
@@ -14,7 +14,7 @@
 <Router>
   <div class="container-fluid bg-dark">
     <!-- Header Section starts -->
-    <div class="row header pt-2 pb-2">
+    <div class="row header pt-2 pb-1">
       <div class="col-lg-4 col-sm-12">
         <Logo />
       </div>
@@ -46,8 +46,8 @@
                             </a>
                             <ul class="dropdown-menu">
                               <!-- <Link to = "zodiacsign" class = "nav-link">Zodiac Sign Calculator</Link> -->
-                              <a href="zodiacsign" class="nav-link">Zodiac Sign Calculator</a>
-                              <a href="leapyear" class="nav-link">Leap Year Check</a>
+                              <a href="zodiacsign" class="nav-link text-center">Zodiac Sign Calculator</a>
+                              <a href="leapyear" class="nav-link text-center">Leap Year Check</a>
                             </ul>
                           </li>
                           <!-- <Link to = "aboutus" class = "nav-link">About Us</Link> -->
@@ -107,4 +107,5 @@
 		background: radial-gradient(circle, rgba(62, 44, 62, 1) 0%, rgba(138, 82, 42, 1) 0%);
     border-radius: 10px;
   }
+  
 </style>
