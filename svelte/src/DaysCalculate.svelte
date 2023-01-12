@@ -56,7 +56,7 @@
             <p class="form-label text-warning mt-4" id = "result">Select valid dates.</p>
         {:else}
             {#if days_difference >= 0}
-                <p class="form-label text-warning" id = "result">The number of days : {days_difference}</p>
+                <p class="form-label text-warning mt-4" id = "result">The number of days : {days_difference}</p>
             {:else}
                 <p class="form-label text-warning mt-4" id = "result">You entered wrong dates.</p>
             {/if}
