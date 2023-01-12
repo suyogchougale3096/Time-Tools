@@ -35,21 +35,21 @@
 
 <div class="container DayCalculator text-center">
     <p class = 'fs-2 text-light'>Count Number of days.</p>
-    <div class="row">
-        <div class="col mt-4">
+    <!-- <div class="row">
+        <div class="col mt-4"> -->
             <label for="datePicker" class="form-label text-light">Enter the date : (From)</label>
             <input type="date" bind:value={date1} required>
             <br>
             <!-- <label for="datePicker" class="form-label text-light" id = "result">Check Your input date here & then press Submit: {date1}</label> -->
-        </div>
-        <div class="col mt-4">
-            <label for="datePicker" class="form-label text-light">Enter the date : (To)</label>
+        <!-- </div> -->
+        <!-- <div class="col mt-4"> -->
+            <label for="datePicker" class="form-label text-light mt-4">Enter the date : (To)</label>
             <input type="date" bind:value={date2} required>
             <br>
             <!-- <label for="datePicker" class="form-label text-light" id = "result">Check Your input date here & then press Submit: {date2}</label> -->
-        </div>
-    </div>
-    <button class = "btn btn-primary" on:click={DayCalculatorFunction}>Check</button>
+        <!-- </div> -->
+    <!-- </div> -->
+    <button class = "btn btn-primary mt-4" on:click={DayCalculatorFunction}>Check</button>
 
     {#if Odate2 != 'Invalid Date' && Odate1 != 'Invalid Date'}
         {#if days_difference == -1}

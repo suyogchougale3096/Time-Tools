@@ -25,7 +25,7 @@
         <nav>
           <nav class="navbar navbar-expand-lg bg-light mb-2">
               <div class="container-fluid">
-                  <a class="navbar-brand" href="https://www.ieee.org/">IEEE</a>
+                  <!-- <a class="navbar-brand" href="https://www.ieee.org/"></a> -->
                   <button
                       class="navbar-toggler"
                       type="button"
