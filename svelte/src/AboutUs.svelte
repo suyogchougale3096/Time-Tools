@@ -3,16 +3,17 @@
     export let AboutUsRoute;
 </script>
 
-<div class="AboutUs text-center text-light">
-    <p class="fs-2">About Us</p>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis quam laborum a explicabo. Optio, commodi dolorum. Suscipit quia dolores, quasi nam velit distinctio ducimus explicabo laboriosam, animi, sapiente impedit vero.
-    Alias corrupti tenetur dignissimos, commodi doloribus accusantium! Hic alias ducimus consectetur fugiat dolore illo omnis impedit magnam recusandae perferendis doloremque sapiente nesciunt qui ut aut similique amet, quasi maiores dignissimos?
-    Doloribus asperiores, omnis ipsa minima labore provident ullam ea! Quia explicabo voluptatum facilis corrupti, mollitia ex esse impedit excepturi, dolor ducimus, aperiam facere dicta et natus architecto provident ad totam.
-    Sapiente voluptas eaque dolore at inventore nulla, fuga officiis fugit excepturi ea expedita pariatur amet quod vel soluta tenetur qui impedit odio consequatur numquam alias voluptates. Beatae minus eum repudiandae.
-    Vel laborum quos dignissimos ratione iure et inventore alias? Deserunt, accusantium assumenda placeat quibusdam tenetur veniam atque voluptatem non quasi aliquam ipsam magni consequuntur excepturi tempore deleniti obcaecati fugit blanditiis?
-    Quasi sit vitae minima, libero, vero id ducimus corporis et fugiat eaque explicabo delectus accusantium labore aspernatur, voluptates ex perspiciatis corrupti nam hic. Nesciunt repellendus repudiandae inventore voluptatem facilis dolorum.
-    Quam inventore quae dolores quos illum repellat quas eveniet laudantium accusantium possimus facilis repudiandae quidem, hic impedit placeat ex adipisci voluptates repellendus earum quisquam, tempore eaque dolore. A, labore obcaecati!
-    Modi sint distinctio nesciunt rem vel, impedit rerum architecto alias quibusdam reiciendis numquam assumenda sunt odio fuga mollitia fugit incidunt dolorum expedita ipsam quae at id quod accusantium! Neque, culpa.
-    Amet excepturi laborum saepe a placeat odio enim hic aut magnam porro optio nostrum ipsa qui, delectus corrupti ipsam repellendus dolorum! Perferendis praesentium voluptas quod dicta, mollitia consequatur sunt tenetur.
-    Optio asperiores ut ipsum dicta eaque ad, distinctio, velit ratione aut labore provident. Provident deleniti sed minima laboriosam repudiandae, nesciunt sit recusandae magnam minus, eaque ullam maiores placeat distinctio. Sequi!</p>
+<div class="AboutUs text-light">
+    <div class="row">
+        <div class="col-md-6">
+            <p class="fs-2 text-center">About Us</p>
+            <p>Online time tools is a collection of useful browser-based time and date calculation utilities. All time tools are simple, free and easy to use. There are no ads, popups or other garbage, just time utilities that work right in your browser. And all utilities work exactly the same way and have the same user interface.
+                a friendly and fun cross-browser testing company powered by alien technology. At Browserling our mission is to make developers' lives easier, so we created this collection of online time and date tools. Unlike many other tools, we made our tools free, without ads, and with the simplest possible user interface.
+                All conversions and calculations are done in your browser using JavaScript. We don't send a single bit about your input data to our servers. There is no server-side processing at all. We use Google Analytics and StatCounter for site usage analytics. Your IP address is saved on our web server, but it's not associated with any personally identifiable information. We don't use cookies and don't store session information in cookies. We use your browser's local storage to save tools' input. It stays on your computer.
+            </p>
+        </div>
+        <div class="col-md-6 text-center mt-2 mb-2">
+            <img src="https://images.freeimages.com/images/previews/dfc/it-s-not-about-speed-it-s-about-acuracy-1641364.jpg" />
+        </div>
+    </div>
 </div>
