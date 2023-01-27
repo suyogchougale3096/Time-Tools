@@ -10,13 +10,19 @@
 
     const displayBtn1 = () =>{
         year = dob;
-        console.log(typeof(year))
-        if(Number(year) % 4 == 0){
-            temp = 1;
+        // console.log(typeof(year))
+        if(Number(year) <= 0){
+            temp = -2;
         }
         else{
-            temp = 0;
+            if(Number(year) % 4 == 0){
+                temp = 1;
+            }
+            else{
+                temp = 0;
+            }
         }
+        console.log(temp)
     }
 </script>
 
@@ -46,10 +52,14 @@
     <button class="btn btn-primary mt-3" on:click={displayBtn1}>Check</button>
     {#if year != 'NULL'}
         {#if temp != -1}
-            {#if temp == 0}
-                <p class="text-warning text-center fs-5 mt-4"><b>Result is : </b>It is not leap year</p>
+            {#if temp == -2}
+                <p class="text-danger text-center fs-5 mt-4"><b>Result is : </b>You didn't entered an valid date.</p>
             {:else}
-                <p class="text-warning text-center fs-5 mt-4"><b>Result is : </b>It is leap year</p>
+                {#if temp == 0}
+                    <p class="text-warning text-center fs-5 mt-4"><b>Result is : </b>It is not leap year</p>
+                {:else}
+                    <p class="text-warning text-center fs-5 mt-4"><b>Result is : </b>It is leap year</p>
+                {/if}
             {/if}
         {/if}
     {/if}

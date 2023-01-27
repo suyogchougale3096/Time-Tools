@@ -37,13 +37,13 @@
     <p class = 'fs-2 text-light'>Count Number of days.</p>
     <!-- <div class="row">
         <div class="col mt-4"> -->
-            <label for="datePicker" class="form-label text-light">Enter the date : (From)</label>
+            <label for="datePicker" class="form-label text-light">Enter the date : (From/older)</label>
             <input type="date" bind:value={date1} required>
             <br>
             <!-- <label for="datePicker" class="form-label text-light" id = "result">Check Your input date here & then press Submit: {date1}</label> -->
         <!-- </div> -->
         <!-- <div class="col mt-4"> -->
-            <label for="datePicker" class="form-label text-light mt-4">Enter the date : (To)</label>
+            <label for="datePicker" class="form-label text-light mt-4">Enter the date : (To/new)</label>
             <input type="date" bind:value={date2} required>
             <br>
             <!-- <label for="datePicker" class="form-label text-light" id = "result">Check Your input date here & then press Submit: {date2}</label> -->
@@ -53,16 +53,16 @@
 
     {#if Odate2 != 'Invalid Date' && Odate1 != 'Invalid Date'}
         {#if days_difference == -1}
-            <p class="form-label text-warning mt-4" id = "result">Select valid dates.</p>
+            <p class="form-label text-warning mt-4" id = "result">Note : Select valid dates.</p>
         {:else}
             {#if days_difference >= 0}
-                <p class="form-label text-warning mt-4" id = "result">The number of days : {days_difference}</p>
+                <p class="form-label text-light mt-4" id = "result">The number of days : {days_difference}</p>
             {:else}
-                <p class="form-label text-warning mt-4" id = "result">You entered wrong dates.</p>
+                <p class="form-label text-danger mt-4" id = "result">You entered wrong dates.</p>
             {/if}
         {/if}
     {:else}
-        <p class="form-label text-warning mt-4" id = "result">Select valid dates.</p>
+        <p class="form-label text-danger mt-4" id = "result">Select valid dates.</p>
     {/if}
 </div>
 
