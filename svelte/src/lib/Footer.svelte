@@ -4,9 +4,8 @@
             <div class="col-md-6 text-center">
                 <h4 class = "text-dark">About Us</h4>
                 <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut molestias reiciendis
-                    minima itaque numquam eligendi vel ipsa atque. Nobis, exercitationem asperiores
-                    perspiciatis quam necessitatibus laudantium sequi culpa vero? Minima, voluptate.
+                    Online time tools is a collection of useful browser-based time and date calculation utilities. All time tools are simple, free and easy to use.
+                    There are no ads, popups or other garbage, just time utilities that work right in your browser. And all utilities work exactly the same way and have the same user interface.
                 </p>
             </div>
             <div class="col-md-6">
